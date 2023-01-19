@@ -1,0 +1,559 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1669081774067652, "dur": 3120915, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1669081774067990, "dur": 4748, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1669081774072741, "dur": 78489, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1669081774151233, "dur": 1493090, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1669081775644326, "dur": 1537146, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1669081777181475, "dur": 7092, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1669081777190206, "dur": 23, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1669081775352838, "dur": 259903, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1669081775354049, "dur": 96894, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1669081775584232, "dur": 8280, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1669081775592519, "dur": 20191, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1669081775593796, "dur": 15703, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1669081775620809, "dur": 1652, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1669081775619635, "dur": 2856, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1669081777190417, "dur": 4922, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1669081775719955, "dur":5169, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669081775725142, "dur":610, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1669081775725802, "dur":41, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1669081775725844, "dur":538, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1669081775726476, "dur":1567, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669081775728043, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669081777148995, "dur":178, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669081777149173, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669081777149187, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669081777149189, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669081777149200, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669081777149203, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669081777149211, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669081777149213, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669081777149221, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669081777149241, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669081777149288, "dur":4660, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1669081775727394, "dur":665, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669081775728059, "dur":10101, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669081775738161, "dur":1821, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1669081775739990, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669081775744002, "dur":6400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1669081775750511, "dur":212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1669081775750728, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669081775750741, "dur":3883, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1669081775754724, "dur":225, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1669081775754954, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669081775755153, "dur":3514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1669081775758759, "dur":227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1669081775758991, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669081775759003, "dur":4118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1669081775763219, "dur":408, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1669081775763632, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669081775763872, "dur":4780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1669081775768764, "dur":241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1669081775769012, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669081775769035, "dur":4630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1669081775773765, "dur":189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1669081775773959, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669081775773970, "dur":5872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1669081775779930, "dur":4914, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1669081775784861, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669081775784873, "dur":49422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1669081775835002, "dur":1078, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1669081775836093, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669081775837128, "dur":11240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1669081775848439, "dur":316, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669081775848759, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669081775849287, "dur":49546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669081775898935, "dur":1041, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669081775899983, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669081775899998, "dur":62255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669081775962325, "dur":896, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669081775963226, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669081775963234, "dur":43108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669081776006424, "dur":851, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669081776007282, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669081776007296, "dur":35502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669081776042887, "dur":1046, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669081776043941, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669081776043955, "dur":35431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669081776079476, "dur":929, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669081776080412, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669081776080425, "dur":66408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669081776146915, "dur":761, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669081776147683, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669081776147696, "dur":30120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669081776177895, "dur":885, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669081776178789, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669081776178803, "dur":27637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669081776206512, "dur":347, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669081776206864, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669081776206875, "dur":40600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669081776247559, "dur":306, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669081776247869, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669081776247880, "dur":35557, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669081776283521, "dur":630, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669081776284158, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669081776284174, "dur":33023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669081776317307, "dur":1376, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669081776318692, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669081776318710, "dur":72014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669081776390795, "dur":846, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669081776391647, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669081776391660, "dur":51187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669081776442917, "dur":801, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669081776443726, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669081776443740, "dur":28287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669081776472120, "dur":426, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669081776472553, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669081776472565, "dur":60598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669081776533234, "dur":3350, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669081776536592, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669081776536605, "dur":36831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669081776573515, "dur":297, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669081776573817, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669081776573829, "dur":30313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669081776604221, "dur":2385, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669081776606611, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669081776606621, "dur":28742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669081776635458, "dur":786, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669081776636251, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669081776636263, "dur":29086, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669081776665468, "dur":1077, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669081776666551, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669081776666564, "dur":33645, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669081776700348, "dur":951, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669081776701306, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669081776701320, "dur":32185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669081776733578, "dur":941, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669081776734526, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669081776734543, "dur":31331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669081776765953, "dur":996, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669081776767002, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669081776767016, "dur":49223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669081776816360, "dur":970, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669081776817338, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669081776817351, "dur":6702, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669081776824154, "dur":961, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669081776825123, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669081776825141, "dur":14847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669081776840079, "dur":332, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669081776840416, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669081776840426, "dur":6052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669081776846568, "dur":307, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669081776846881, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669081776846894, "dur":5567, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669081776852533, "dur":263, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669081776852801, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669081776852811, "dur":5816, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669081776858712, "dur":274, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669081776858990, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669081776859000, "dur":4851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669081776863928, "dur":775, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669081776864707, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669081776864716, "dur":22959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669081776887743, "dur":662, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669081776888410, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669081776888421, "dur":5326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669081776893824, "dur":963, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669081776894796, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669081776894811, "dur":7953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669081776902860, "dur":467, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669081776903335, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669081776903388, "dur":8234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669081776911722, "dur":397, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669081776912126, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669081776912139, "dur":6520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669081776918759, "dur":5176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669081776923940, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669081776923948, "dur":17821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669081776941864, "dur":356, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669081776942226, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669081776942242, "dur":5594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669081776947906, "dur":356, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669081776948266, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669081776948276, "dur":7364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669081776955743, "dur":424, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669081776956175, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669081776956189, "dur":5696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669081776961983, "dur":11981, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669081776973970, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669081776973983, "dur":71860, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669081777045923, "dur":441, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/Assembly-CSharp-firstpass.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669081777046369, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669081777046380, "dur":6812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/Assembly-CSharp-firstpass.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669081777053267, "dur":277, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669081777053548, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669081777054715, "dur":13448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669081777068259, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1669081777068362, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669081777068417, "dur":12451, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1669081777080976, "dur":396, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1669081777081379, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669081777081390, "dur":3782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1669081777085261, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1669081777085356, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669081777085366, "dur":5431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1669081777090911, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/level0.resS" }}
+,{ "pid":12345, "tid":1, "ts":1669081777091002, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669081777091017, "dur":4940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/level0.resS" }}
+,{ "pid":12345, "tid":1, "ts":1669081777096045, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1669081777096172, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669081777096187, "dur":5268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1669081777101542, "dur":297, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1669081777101842, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669081777101851, "dur":3801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1669081777105727, "dur":43255, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669081775727394, "dur":656, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669081775728053, "dur":9962, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669081775738039, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1669081775738050, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669081775742060, "dur":1456, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1669081775743523, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1669081775743609, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669081775744198, "dur":5584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1669081775749786, "dur":183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1669081775749973, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669081775750085, "dur":3898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1669081775754068, "dur":3261, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1669081775757337, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669081775757350, "dur":3264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1669081775760706, "dur":290, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1669081775761001, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669081775762256, "dur":4609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1669081775767254, "dur":1157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1669081775768420, "dur":208, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669081775768642, "dur":4354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1669081775773106, "dur":211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1669081775773323, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669081775773336, "dur":4914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1669081775778385, "dur":46270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669081775824662, "dur":44, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669081775824916, "dur":238112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669081776063160, "dur":872, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669081776064039, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669081776064052, "dur":47624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669081776111752, "dur":698, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669081776112457, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669081776112469, "dur":29522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669081776142090, "dur":894, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669081776142991, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669081776143003, "dur":45900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669081776189136, "dur":462, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669081776189605, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669081776189618, "dur":30205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669081776219898, "dur":1609, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669081776221514, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669081776221527, "dur":64085, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669081776285728, "dur":473, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669081776286208, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669081776286226, "dur":26680, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669081776312975, "dur":1053, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669081776314036, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669081776314053, "dur":42390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669081776356526, "dur":786, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669081776357320, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669081776357335, "dur":29861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669081776387264, "dur":346, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669081776387624, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669081776387652, "dur":42050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669081776429781, "dur":791, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669081776430579, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669081776430638, "dur":45489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669081776476219, "dur":1033, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669081776477260, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669081776477273, "dur":53194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669081776530583, "dur":5198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669081776535789, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669081776535805, "dur":31506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669081776567393, "dur":2010, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669081776569410, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669081776569426, "dur":35589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669081776605087, "dur":814, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669081776605908, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669081776605921, "dur":28590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669081776634607, "dur":900, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669081776635513, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669081776635526, "dur":33535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669081776669162, "dur":826, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669081776669994, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669081776670008, "dur":33035, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669081776703131, "dur":1141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669081776704322, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669081776704340, "dur":37586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669081776741997, "dur":804, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669081776742806, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669081776742819, "dur":35114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669081776778012, "dur":855, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669081776778874, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669081776778887, "dur":41988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669081776821072, "dur":599, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669081776821678, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669081776821689, "dur":7530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669081776829300, "dur":535, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669081776829840, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669081776829858, "dur":4813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669081776834762, "dur":318, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669081776835086, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669081776835100, "dur":23732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669081776858910, "dur":231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669081776859144, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669081776859151, "dur":5216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669081776864434, "dur":225, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669081776864664, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669081776864674, "dur":7865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669081776872608, "dur":224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669081776872836, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669081776872846, "dur":4574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669081776877495, "dur":1015, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669081776878515, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669081776878526, "dur":16588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669081776895171, "dur":3937, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669081776899119, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669081776899296, "dur":8892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669081776908308, "dur":4918, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669081776913260, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669081776913273, "dur":79217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669081776992584, "dur":985, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669081776993579, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669081776993594, "dur":8045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669081777001710, "dur":478, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669081777002193, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669081777002203, "dur":8468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669081777010744, "dur":921, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669081777011669, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669081777011680, "dur":19328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669081777031083, "dur":987, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669081777032076, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669081777032086, "dur":8440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669081777040657, "dur":367, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669081777041029, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669081777041040, "dur":6607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669081777047750, "dur":345, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/AllIn1SpriteShaderAssembly.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669081777048103, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669081777048117, "dur":9142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/AllIn1SpriteShaderAssembly.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669081777057369, "dur":255, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1669081777057629, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669081777057722, "dur":4866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1669081777062673, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1669081777062750, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669081777062761, "dur":72860, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1669081777135708, "dur":13268, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669081775727466, "dur":599, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669081775728065, "dur":9955, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669081775738039, "dur":2232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1669081775740276, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669081775746632, "dur":3731, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1669081775750474, "dur":1611, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1669081775752437, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669081775752452, "dur":26425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1669081775778945, "dur":118503, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669081775897457, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669081775897471, "dur":772063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669081776669647, "dur":2105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669081776671759, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669081776671773, "dur":43447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669081776715318, "dur":1173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669081776716502, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669081776716520, "dur":33541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669081776750156, "dur":927, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669081776751091, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669081776751106, "dur":32339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669081776783527, "dur":297, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669081776783828, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669081776783839, "dur":6342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669081776790317, "dur":672, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669081776790995, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669081776791007, "dur":12516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669081776803599, "dur":4319, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669081776807930, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669081776807947, "dur":20214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669081776828246, "dur":259, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669081776828509, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669081776828520, "dur":5252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669081776833855, "dur":291, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669081776834150, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669081776834161, "dur":5621, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669081776839889, "dur":262, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669081776840156, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669081776840167, "dur":4383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669081776844636, "dur":313, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669081776844955, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669081776844967, "dur":10240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669081776855292, "dur":316, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669081776855614, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669081776855625, "dur":5401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669081776861116, "dur":314, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669081776861435, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669081776861448, "dur":5669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669081776867191, "dur":602, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669081776867798, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669081776867810, "dur":10523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669081776878417, "dur":281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669081776878703, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669081776878711, "dur":5677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669081776884473, "dur":577, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669081776885056, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669081776885114, "dur":28874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669081776914084, "dur":515, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669081776914606, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669081776914618, "dur":8014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669081776922703, "dur":264, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669081776922972, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669081776922982, "dur":5623, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669081776928690, "dur":383, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669081776929078, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669081776929089, "dur":7452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669081776936745, "dur":670, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669081776937423, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669081776937443, "dur":23437, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669081776960965, "dur":766, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669081776961737, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669081776961748, "dur":16675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669081776978778, "dur":339, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669081776979124, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669081776979135, "dur":6940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669081776986161, "dur":3080, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669081776989255, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669081776989272, "dur":29952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669081777019299, "dur":782, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669081777020086, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669081777020099, "dur":7185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669081777027373, "dur":25077, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669081777052493, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669081777052509, "dur":96376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669081777148957, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":3, "ts":1669081777148961, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669081775727495, "dur":574, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669081775728069, "dur":9953, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669081775738039, "dur":288, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1669081775738331, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669081775744877, "dur":7225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1669081775752207, "dur":195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1669081775752440, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669081775753369, "dur":4044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1669081775757494, "dur":1241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1669081775758741, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669081775758755, "dur":4075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1669081775762920, "dur":1524, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1669081775764453, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669081775764471, "dur":11563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1669081775776314, "dur":3168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669081775779488, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669081775780205, "dur":48550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669081775828858, "dur":993, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project.exe" }}
+,{ "pid":12345, "tid":4, "ts":1669081775829859, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669081775829872, "dur":27844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project.exe" }}
+,{ "pid":12345, "tid":4, "ts":1669081775857824, "dur":883, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669081775858715, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669081775858886, "dur":30260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669081775889225, "dur":295, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669081775889524, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669081775889536, "dur":41260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669081775930909, "dur":1290, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669081775932209, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669081775932239, "dur":30181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669081775962494, "dur":656, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669081775963155, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669081775963169, "dur":28097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669081775991338, "dur":802, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669081775992146, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669081775992195, "dur":34798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669081776027148, "dur":385, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669081776027539, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669081776027551, "dur":81767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669081776109428, "dur":984, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669081776110465, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669081776110480, "dur":52984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669081776163579, "dur":1132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669081776164717, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669081776164729, "dur":55344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669081776220162, "dur":1344, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669081776221514, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669081776221527, "dur":9067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669081776230676, "dur":729, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669081776231410, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669081776231422, "dur":43492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669081776274997, "dur":316, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669081776275317, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669081776275328, "dur":44328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669081776319759, "dur":401, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669081776320166, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669081776320179, "dur":40205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669081776360455, "dur":741, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669081776361202, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669081776361215, "dur":50614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669081776411911, "dur":302, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669081776412218, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669081776412229, "dur":32187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669081776444513, "dur":1125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669081776445647, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669081776445662, "dur":26405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669081776472145, "dur":376, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669081776472525, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669081776472536, "dur":29554, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669081776512154, "dur":1249, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669081776513454, "dur":131, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669081776513606, "dur":50234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669081776563936, "dur":393, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669081776564335, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669081776564349, "dur":29687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669081776594125, "dur":521, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669081776594652, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669081776594665, "dur":36826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669081776631583, "dur":344, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669081776631932, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669081776631945, "dur":29743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669081776661785, "dur":843, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669081776662635, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669081776662649, "dur":35940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669081776698672, "dur":3295, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669081776701977, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669081776701994, "dur":49581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669081776751655, "dur":1094, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669081776752756, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669081776752771, "dur":29762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669081776782627, "dur":1452, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669081776784085, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669081776784096, "dur":82857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669081776867061, "dur":327, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669081776867394, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669081776867406, "dur":20262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669081776887896, "dur":806, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669081776888708, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669081776888717, "dur":6373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669081776895163, "dur":1466, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669081776896638, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669081776896657, "dur":25436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669081776922181, "dur":1435, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669081776923622, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669081776923634, "dur":47526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669081776971256, "dur":12622, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669081776983887, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669081776983903, "dur":71747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669081777056024, "dur":553, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":4, "ts":1669081777056587, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669081777057177, "dur":3772, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":4, "ts":1669081777061039, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":4, "ts":1669081777061128, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669081777061138, "dur":18400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":4, "ts":1669081777079630, "dur":328, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1669081777079964, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669081777079978, "dur":4162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1669081777084236, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1669081777084347, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669081777084361, "dur":9190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1669081777093624, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1669081777093717, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669081777093729, "dur":4278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1669081777098135, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1669081777098247, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669081777098265, "dur":4067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/juanc/OneDrive/Escritorio/export1/Team APPA Project_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1669081777102455, "dur":46522, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669081777159576, "dur":3285, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1669081777195669, "dur": 1589, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1669081777190188, "dur": 7183, "ph": "X", "name": "Write chrome-trace events", "args": {} },
